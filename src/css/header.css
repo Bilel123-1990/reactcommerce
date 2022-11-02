@@ -1,0 +1,58 @@
+.menu {
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    background: none;
+    padding: 5px 10px ;
+    font-size: 17px;
+    font-family:'montserrat';
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.hovermenu1,.hovermenu2,.hovermenu3{
+    color:#000;
+}
+.hovermenu1,.hovermenu2,.hovermenu3{
+    color: #000;
+}
+
+.hovermenu1:hover,.hovermenu2:hover,.hovermenu3:hover{
+    color:#dbc834;
+}
+.hovermenu4:hover,.hovermenu5:hover,.hovermenu6:hover{
+    color:#3498db;
+}
+.menu::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.hovermenu1::before,.hovermenu2::before,.hovermenu3::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.hovermenu4::before,.hovermenu5::before,.hovermenu6::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+
+.hovermenu1:hover::before,.hovermenu2:hover::before,.hovermenu3:hover::before{
+    height: 150%;
+}
+
+.hovermenu4:hover::before,.hovermenu5:hover::before,.hovermenu6:hover::before{
+    height: 150%;
+}
+
+
+
+

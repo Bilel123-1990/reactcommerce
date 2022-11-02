@@ -4,9 +4,9 @@ import CartBtn from './buttons/CartBtn'
 import Login from './buttons/Login'
 import Signup from './buttons/Signup'
 import Dashbord from './dashboard/Dashbord'
-import '../components/buttons/header.css'
 import { Redirect } from 'react-router'
 import axios from 'axios'
+import '../css/header.css'
 
 
 const Header = () => {
@@ -22,8 +22,8 @@ const Header = () => {
     
     <div>
       
-         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        
+  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+
   <button className="navbar-toggler" type="button"
    data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,22 +35,22 @@ const Header = () => {
   
     <ul className="navbar-nav mr-auto">
       <li className="nav-item ">
-        <Link className="nav-link hovermenu" to="/">Home </Link>
+        <Link className="nav-link hovermenu1 menu" to="/">Home </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link hovermenu" to="/products">Product</Link>
+        <Link className="nav-link hovermenu2 menu" to="/products">Product</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link hovermenu" to="/about">About</Link>
+        <Link className="nav-link hovermenu3 menu" to="/about">About</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link hovermenu" to="/contact">Contact</Link>
+        <Link className="nav-link hovermenu4 menu" to="/contact">Contact</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link hovermenu" to="/nosmagazin">Nos Magazin</Link>
+        <Link className="nav-link hovermenu5 menu" to="/nosmagazin">Nos Magazin</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link hovermenu" to="/dashboardadmin/listproduct">Administration</Link>
+        <Link className="nav-link hovermenu6 menu" to="/dashboardadmin/listproduct">Administration</Link>
       </li>
       
       
