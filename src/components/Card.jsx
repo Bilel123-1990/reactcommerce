@@ -103,7 +103,7 @@ const [data,setData]=useState([]);
                         <img
                           src={photos[props.index]}
                           className="card-img-top"
-                          alt={"loading..."}
+                          alt={"Loading..."}
                         />
                         <div className="card-body">
                           {/* {Product.map((product)=> */}
@@ -141,7 +141,7 @@ const [data,setData]=useState([]);
                           to={`/updateproduct/${props.product.id}`}
                           className="btn btn-outline-success "
                         >
-                          Update Products
+                          Change Position Update
                         </NavLink>
 
                         {/* <NavLink
